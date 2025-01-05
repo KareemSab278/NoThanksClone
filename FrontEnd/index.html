@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Boycott</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Company Boycott List</h1>
+            <input type="text" id="search" placeholder="Search company or letter..." onkeyup="getCompany()" />
+        </header>
+        <div id="company-grid" class="grid"></div>
+        <div class="popup" id="popup">
+            <div id="popup-text"></div>
+            <button class="read-more-btn" onclick="closePopup()">Close</button>
+        </div>
+        
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
