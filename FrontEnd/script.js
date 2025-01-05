@@ -1,4 +1,5 @@
-const url = 'http://localhost:3000/allcompany';
+// const url = 'http://localhost:3000/allcompany'; // for local development
+const url = 'https://nothanksclone.onrender.com/allcompany' // new url for production
 let companies = [];
 
 // Fetch all companies and store in the companies array
